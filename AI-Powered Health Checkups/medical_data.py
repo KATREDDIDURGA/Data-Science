@@ -107,7 +107,7 @@ def generate_suggestions(text_content):
     st.subheader("Medical Suggestions")
 
     # Initialize the LLM with OpenAI API key (Replace with your actual key)
-    api_key = "yosk-qdB1r_JgS-TJmdiMbXpqubCvS2OfxCfvyLsmMGRRHDT3BlbkFJdH9B9mXxNoFz5NKnNbvs3zZ4vtNWBQtHq4bj_jZlIA"
+    api_key = "#"
     llm = ChatOpenAI(model="gpt-4", temperature=0, openai_api_key=api_key)
     
     # Split the extracted text into smaller chunks for embedding
